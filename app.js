@@ -1,5 +1,9 @@
 "use strict"
 
+var username = prompt('What is your name?');
+alert('Hey there, ' + username + '. Enjoy this game!');
+console.log('The user said their name is ' + username);
+
 var game = prompt('My current favorite game is Overwatch. Yes or No?');
 if (game.toLowerCase() === 'yes' || game.toLowerCase() === 'y') {
   alert('Correct!');
@@ -8,7 +12,7 @@ if (game.toLowerCase() === 'yes' || game.toLowerCase() === 'y') {
     alert('Wrong!');
     console.log('The user guessed incorrectly');
 } else {
-    alert('Please answer yes or no');
+    alert('Please answer Yes or No');
     console.log('The user entered an invalid string');
 }
 
@@ -21,7 +25,7 @@ if (sister.toLowerCase() === 'yes' || sister.toLowerCase() === 'y') {
     alert('Wrong!');
     console.log('The user guessed incorrectly');
 } else {
-    alert('Please answer yes or no');
+    alert('Please answer Yes or No');
     console.log('The user entered an invalid string');
 }
 
@@ -34,7 +38,7 @@ if (car.toLowerCase() === 'no' || car.toLowerCase() === 'n') {
     alert('Wrong!');
     console.log('The user guessed incorrectly');
 } else {
-    alert('Please answer yes or no');
+    alert('Please answer Yes or No');
     console.log('The user entered an invalid string');
 }
 
@@ -47,20 +51,20 @@ if (country.toLowerCase() === 'yes' || country.toLowerCase() === 'y') {
     alert('Wrong!');
     console.log('The user guessed incorrectly');
 } else {
-    alert('Please answer yes or no');
+    alert('Please answer Yes or No');
     console.log('The user entered an invalid string');
 }
 
 
 var celebrity = prompt('I went on a date with Gal Gadot. Yes or No?')
 if (celebrity.toLowerCase() === 'no' || celebrity.toLowerCase() === 'n') {
-  alert('Correct, but a guy can dream, right??');
+  alert('Ok ' + username + ', you got me. But a guy can dream, right??');
   console.log('The user guessed correctly');
 } else if (celebrity.toLowerCase() === 'yes' || celebrity.toLowerCase() === 'y') {
-    alert('Nope, but thanks fot thinking so highly of me!');
+    alert('Nope, but thanks for thinking so highly of me, ' + username + '!');
     console.log('The user guessed incorrectly');
 } else {
-    alert('Please answer yes or no');
+    alert('Please answer Yes or No');
     console.log('The user entered an invalid string');
 }
 
