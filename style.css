@@ -1,0 +1,21 @@
+* {
+  font-family: Georgia;
+  color: #1f76ff;
+}
+
+body {
+  background-color: #eceeee;
+}
+h1 {
+  font-family: Times;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+a {
+    color: #0aa488;
+}
