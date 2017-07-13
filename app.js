@@ -82,7 +82,7 @@ if (celebrity === 'no' || celebrity === 'n') {
 var attempts = 4;
 while (attempts > 0)
   {
-    var number = parseInt(prompt('Pick a number between 1 and 10.'));
+    var number = parseInt(prompt('I\'m thinking of a number between 1 and 10, what is it?'));
     if (number === 8) {
       alert('That\'s right!');
       questions.push(6);
